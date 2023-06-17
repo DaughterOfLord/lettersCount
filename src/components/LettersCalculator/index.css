@@ -1,0 +1,62 @@
+/* Write your code here. */
+.bg-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+
+.container-1 {
+  padding: 40px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+
+.container-2 {
+  padding: 20px;
+  padding-top: 25px;
+}
+
+.calculator-img {
+  height: 80vh;
+  width: 90%;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 42px;
+  color: #ffffff;
+  padding-top: 35px;
+}
+
+.input-element {
+  height: 35px;
+  width: 50%;
+  outline: none;
+  background-color: transparent;
+  color: #e4e7eb;
+  margin-top: 10px;
+}
+
+.calculation-btn {
+  height: 50px;
+  width: 45%;
+  color: #219a6f;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 10px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: column;
+}
